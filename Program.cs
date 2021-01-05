@@ -19,6 +19,18 @@ namespace VariablesCS
             var userName = Console.ReadLine();
             Console.WriteLine($"Nice to meet you {userName}. Greetings.");
 
+            Console.Write("Gimmie two numbers ");
+            var firstNumberAsString = Console.ReadLine();
+            var secondNumberAsString = Console.ReadLine();
+
+
+
+
+
+
+
+
+
 
         }
     }
