@@ -23,6 +23,27 @@ namespace VariablesCS
             var firstNumberAsString = Console.ReadLine();
             var secondNumberAsString = Console.ReadLine();
 
+            var firstOperand = double.Parse(firstNumberAsString);
+            var secondOperand = double.Parse(secondNumberAsString);
+
+            var sum = firstOperand + secondOperand;
+            var difference = firstOperand - secondOperand;
+            var product = firstOperand * secondOperand;
+            var quotient = firstOperand / secondOperand;
+            var remainder = firstOperand % secondOperand;
+
+            Console.WriteLine("Added together gives you " + sum);
+            Console.WriteLine("The difference of these are " + difference);
+            Console.WriteLine("Multiplied together gives you " + product);
+            Console.WriteLine("The first number divided by the second number is " + quotient);
+            Console.WriteLine("Whats leftover when you divide the first number by the second number is " + remainder);
+
+
+
+
+
+
+
 
 
 
