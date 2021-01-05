@@ -15,6 +15,10 @@ namespace VariablesCS
 
             Console.WriteLine($"{fullName} {numberOfCupsOfCoffee} {today}");
 
+            Console.Write("What is your name? ");
+            var userName = Console.ReadLine();
+            Console.WriteLine($"Nice to meet you {userName}. Greetings.");
+
 
         }
     }
